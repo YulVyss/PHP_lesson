@@ -1,0 +1,12 @@
+
+
+RewriteRule .htaccess - [F]
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
+php_value session.gc_maxlifetime 2400
+
+
+

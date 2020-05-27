@@ -1,0 +1,266 @@
+@charset "UTF-8";
+
+body {
+    background: #333333;
+    padding: 20px;
+    margin: 0;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+h1 {
+    font-size: 18px;
+}
+h2,
+h2 a {
+    font-size: 16px;
+    text-decoration: none;
+}
+h3 {
+    color: #000000;
+    font-size: 14px;
+}
+div {
+    border: none;
+}
+table {
+    min-height: 220px;
+}
+tr td {
+    border: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: underline;
+    color: #333;
+}
+
+a:hover {
+    color: #00a0de;
+    text-decoration: underline;
+}
+
+.header {
+    padding: 0;
+    margin: 0 0 10px 0;
+    border: none;
+}
+
+.logo {
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 0;
+    border: none;
+}
+
+.logo img {
+    border: none;
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+header .main-menu {
+    font-size: 16px;
+    text-decoration: none;
+}
+.main-menu li {
+    list-style: none;
+    float: left;
+    background: url(i/top-menu-bg.gif) bottom repeat-x #efefef;
+    margin: 0 3px 0 0;
+    padding: 0;
+}
+
+.main-menu.bottom {
+    float: left;
+}
+
+.main-menu.bottom li {
+    float: none;
+    display: block;
+    font-size: 12px;
+}
+
+.main-menu li a {
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+    color: #999999;
+}
+
+.main-menu li a:hover {
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    background: url(i/fl-bg-hover.gif) bottom repeat-x #67bdff;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-collum-index {
+    background: #ffffff;
+    margin: 0;
+    padding: 10px;
+    width: 50%;
+    vertical-align: top;
+    color: #000000;
+}
+
+.left-collum-index h1,
+.left-collum-index p {
+    color: #000000;
+    margin: 0 0 10px 0;
+}
+
+.right-collum-index {
+    background: #efefef;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    border-left: solid 1px #aeaeae;
+    vertical-align: top;
+}
+
+.footer {
+    color: #ffffff;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.footer a {
+    color: #ffffff;
+}
+.footer a:hover {
+    color: #cccccc;
+}
+
+.project-folders-menu {
+    background: #333333;
+    margin: 0 0 10px 0;
+    padding: 0 10px 0 0;
+    font-size: 12px;
+}
+
+.project-folders-v {
+    margin: 0;
+    padding: 0;
+}
+
+.project-folders-v li {
+    list-style: none;
+    float: left;
+    background: #333333;
+    margin: 0 3px 0 0;
+    padding: 0;
+}
+
+.project-folders-v li a {
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+    color: #999999;
+}
+
+.project-folders-v li a:hover {
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+    color: #999999;
+    background: bottom repeat-x #666666;
+}
+
+.project-folders-v-active span,
+.project-folders-v-active a {
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+    color: #333333;
+    background: #efefef;
+    font-weight: bold;
+}
+
+.index-auth {
+    margin: 0;
+    padding: 10px;
+}
+
+.iat {
+    color: #777777;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+.iat input {
+    width: 99% !important;
+}
+
+.iat label {
+    display: block;
+}
+.main-menu li a.active {
+    text-decoration: underline;
+}
+.content {
+    color: #000;
+    margin-bottom: 20px;
+}
+input[type="checkbox"] {
+    display: inline-block;
+    width: auto !important;
+}
+label.agree {
+    display: inline;
+}
+form.add_message {
+    display: flex;
+    flex-direction: column;
+}
+.add_message input,
+.add_message textarea,
+.add_message select {
+    margin-bottom: 10px;
+}
+.add_message input[type="submit"] {
+    width: 250px;
+    margin: 10px auto;
+    background-color: #777777;
+}
+.sender {
+    color: brown;
+}
+.time {
+    color: darkgreen;
+}
+.red {
+    color: #ffffff;
+    background-color: red;
+}
+.blue {
+    color: #ffffff;
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    color: #ffffff;
+    background-color: green;
+}
+.text_green a {
+    color: green;
+}
+.text_blue a {
+    color: darkblue;
+}
